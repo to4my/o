@@ -28,5 +28,7 @@ RSpec.describe GameQuestion, type: :model do
       # Именно под буквой b в тесте мы спрятали указатель на верный ответ
       expect(game_question.answer_correct?('b')).to be_truthy
     end
+
+    
   end
 end

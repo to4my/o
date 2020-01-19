@@ -1,5 +1,5 @@
-.PHONY: bundle-pd
+.PHONY: bun-pd
  
-bundle-pd:
+bun-pd:
 	bundle install --without production
 
